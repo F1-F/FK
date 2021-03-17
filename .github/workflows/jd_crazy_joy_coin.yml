@@ -33,9 +33,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【疯狂JOY挂机1】'
+      - name: '运行 【疯狂JOY挂机】'
         run: |
-          node jd_crazy_joy_coin1.js
+          node jd_crazy_joy_coin.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
