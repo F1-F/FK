@@ -36,12 +36,12 @@ inputs:
           cronExpression: "0 59 7,15,23 * * * *"
           enable: true
           argument: jd_joy_reward
-    - timer: #汽车兑换
+    - timer: #京东极速版
         parameters:
           name: car_exchange
           cronExpression: "0 0 0 * * * *"
           enable: true
-          argument: jd_car_exchange
+          argument: jd_speed_sign
     - timer: #超市蓝币兑换
         parameters:
           name: blueCoin
