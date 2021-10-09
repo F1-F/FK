@@ -36,7 +36,7 @@ inputs:
           cronExpression: "0 59 7,15,23 * * * *"
           enable: true
           argument: jd_joy_reward
-    - timer: #宠汪汪积分兑换京豆
+    - timer: #东东农场 #东东萌宠
         parameters:
           name: fruit_pet
           cronExpression: "0 5 6-18/6 * * * *"
