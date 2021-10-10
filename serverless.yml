@@ -48,11 +48,11 @@ inputs:
           cronExpression: "0 0 0,2 * * * *"
           enable: true
           argument: jd_speed_sign
-    - timer: #超市蓝币兑换
+    - timer: #京喜签到
         parameters:
-          name: blueCoin
-          cronExpression: "0 59 23 * * * *"
+          name: sign
+          cronExpression: "0 0 0 * * * *"
           enable: true
-          argument: jd_blueCoin
+          argument: jx_sign
   environment: #  环境变量
     variables: #  环境变量对象
