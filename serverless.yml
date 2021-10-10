@@ -45,7 +45,7 @@ inputs:
     - timer: #京东极速版
         parameters:
           name: speedsign
-          cronExpression: "0 0 0 * * * *"
+          cronExpression: "0 0 0,2 * * * *"
           enable: true
           argument: jd_speed_sign
     - timer: #超市蓝币兑换
