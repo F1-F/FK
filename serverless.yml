@@ -54,5 +54,11 @@ inputs:
           cronExpression: "0 0 0 * * * *"
           enable: true
           argument: jx_sign
+    - timer:
+        parameters:
+          name: tx
+          cronExpression: "0 0 0 * * * *"
+          enable: true
+          argument: tx
   environment: #  环境变量
     variables: #  环境变量对象
