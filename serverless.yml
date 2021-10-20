@@ -57,7 +57,7 @@ inputs:
     - timer:
         parameters:
           name: tx
-          cronExpression: "0 0 0 * * * *"
+          cronExpression: "58 59 23 * * * *"
           enable: true
           argument: tx
   environment: #  环境变量
