@@ -33,7 +33,7 @@ inputs:
     - timer: #宠汪汪积分兑换京豆
         parameters:
           name: joyreward
-          cronExpression: "0 59 7,15,23 * * * *"
+          cronExpression: "20 59 7,15,23 * * * *"
           enable: true
           argument: jd_joy_reward
     - timer: #东东农场 #东东萌宠
@@ -57,7 +57,7 @@ inputs:
     - timer:
         parameters:
           name: tx
-          cronExpression: "58 59 23 * * * *"
+          cronExpression: "59 59 23 * * * *"
           enable: true
           argument: tx
   environment: #  环境变量
