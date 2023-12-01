@@ -14,7 +14,7 @@ TG频道群：https://t.me/WeiRenQAQ
 **************************************
 
 [Script]
-LanRen = type=http-response,pattern=^http[s]?:\/\/((shapi|hapi)(\.mting\.info)|(m\.lrts\.me)|(gzapi\.mting\.info))\/(app|yyting)\/(getVipPageData|userclient\/ClientGetUserInfo|usercenter\/ThirdPartyLogin).*$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/LanRen.js
+LanRen = type=http-response,pattern=^http[s]?:\/\/((shapi|hapi)(\.mting\.info)|(m\.lrts\.me)|(gzapi\.mting\.info))\/(app|yyting)\/(getVipPageData|userclient\/ClientGetUserInfo|usercenter\/ThirdPartyLogin).*$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/F1-F/FK/main/LanRen.js
 
 [MITM]
 hostname= %APPEND% *.mting.*,m.lrts.me,hapi.mting.info
